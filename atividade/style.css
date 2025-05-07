@@ -1,16 +1,74 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: rgb(238, 239, 239);
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
 }
 
-a:visited {
-    background-color: yellow;
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
-a {
-    background-color: rgb(204, 218, 254);
+
+ul#ulCidades {
+    list-style: none;
+    padding: 0;
+}
+
+ul#ulCidades li {
+    margin-bottom: 12px;
+}
+
+ul#ulCidades li a {
+    display: block;
+    padding: 12px 20px;
+    background-color: #c8e1ff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+ul#ulCidades li a:hover {
+    background-color: #a8cfff;
+}
+
+ul#ulCidades li a:visited {
+    background-color: #6495ED;
+    color: #fff;
+}
+
+
+#tela {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#tela p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+a.botao-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 16px;
+    background-color: #2b6cb0;
+    color: #fff;
+    border-radius: 6px;
+}
+
+a.botao-voltar:hover {
+    background-color: #1a4e85;
 }
