@@ -8,10 +8,9 @@ body {
 }
 
 a:visited {
-    padding: 1.5rem;
     background-color: yellow;
 }
 
 a {
-    background-color: red;
+    background-color: rgb(204, 218, 254);
 }
